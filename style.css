@@ -14,18 +14,29 @@ body {
     color: #fff;
 }
 
-.logo img {
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
     width: 100px;
     height: auto;
+    margin-right: 20px; /* Add some space between the logo and the text */
+}
+
+.text {
+    text-align: left;
 }
 
 h1 {
     font-size: 2.5rem;
     color: #3ea6f2; /* Matching the color of 'Pro' in ProWare */
-    margin: 0.5rem 0;
+    margin: 0;
 }
 
 p {
     font-size: 1.5rem;
-    margin: 0;
+    margin: 0.5rem 0 0;
 }
