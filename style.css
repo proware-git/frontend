@@ -175,3 +175,28 @@
   letter-spacing: 0;
   line-height: normal;
 }
+
+/* Tablet styles */
+@media (min-width: 768px) {
+  .coming-soon .content {
+    flex-direction: row;
+  }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+  .coming-soon {
+    width: 1440px;
+    height: 1024px;
+    padding: 0;
+  }
+
+  .coming-soon .content {
+    width: 689px;
+    padding: 40px 56px;
+  }
+
+  .coming-soon .text-wrapper {
+    font-size: 64px;
+  }
+}
