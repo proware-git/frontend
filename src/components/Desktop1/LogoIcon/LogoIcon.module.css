@@ -1,0 +1,19 @@
+.root {
+  position: relative;
+  width: 169px;
+  height: 174px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.clipPathGroup {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 169px;
+  height: 174px;
+  overflow: visible;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
