@@ -1,8 +1,10 @@
 .coming-soon {
-  width: 1728px;
-  height: 1117px;
+  width: 100%; /* Full width of the viewport */
+  min-height: 100vh; /* At least the full height of the viewport */
   background-color: rgba(255, 255, 255, 1);
-  background: linear-gradient(180deg, rgb(8.71, 32.75, 43.56) 0%, rgb(4, 62, 73) 100%);
+  background: linear-gradient(180deg, rgb(8, 32, 43) 0%, rgb(4, 62, 73) 100%);
+  padding: 20px; /* Add some padding for spacing */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
 }
 
 .coming-soon .overlap-group {
@@ -133,15 +135,6 @@
   font-size: 32px;
   letter-spacing: 0;
   line-height: 72px;
-}
-
-.coming-soon .our-color {
-  display: inline-flex;
-  align-items: flex-end;
-  justify-content: center;
-  position: absolute;
-  top: 1101px;
-  left: 1575px;
 }
 
 .coming-soon .list {
