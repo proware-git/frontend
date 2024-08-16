@@ -1,23 +1,23 @@
 .coming-soon {
-  width: 1440px;
-  height: 1024px;
+  width: 1728px;
+  height: 1117px;
   background-color: rgba(255, 255, 255, 1);
   background: linear-gradient(180deg, rgb(8.71, 32.75, 43.56) 0%, rgb(4, 62, 73) 100%);
 }
 
 .coming-soon .overlap-group {
   position: relative;
-  width: 1376px;
-  height: 1024px;
+  width: 1664px;
+  height: 1117px;
   left: 64px;
 }
 
 .coming-soon .our-horse {
   position: absolute;
-  width: 1024px;
-  height: 1024px;
+  width: 1293px;
+  height: 1117px;
   top: 0;
-  left: 352px;
+  left: 371px;
   object-fit: cover;
 }
 
@@ -140,15 +140,16 @@
   align-items: flex-end;
   justify-content: center;
   position: absolute;
-  top: 1008px;
-  left: 1296px;
+  top: 1101px;
+  left: 1575px;
 }
 
 .coming-soon .list {
-  display: inline-flex;
+  display: flex;
+  width: 1607px;
   align-items: flex-start;
   justify-content: center;
-  gap: 92px;
+  gap: 150px;
   padding: 24px 56px;
   position: absolute;
   top: 791px;
