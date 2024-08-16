@@ -1,105 +1,49 @@
-.coming-soon {
-  width: 100%; /* Full width of the viewport */
-  min-height: 100vh; /* At least the full height of the viewport */
-  background-color: rgba(255, 255, 255, 1);
-  background: linear-gradient(180deg, rgb(8, 32, 43) 0%, rgb(4, 62, 73) 100%);
-  padding: 20px; /* Add some padding for spacing */
-  box-sizing: border-box; /* Ensure padding is included in width calculation */
+.desktop {
+  background-color: #000000;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
 }
 
-.coming-soon .overlap-group {
-  position: relative;
-  width: 1664px;
-  height: 1117px;
-  left: 64px;
+.desktop .content-wrapper {
+  background-color: #000000;
+  width: 1440px;
+  height: 1024px;
 }
 
-.coming-soon .our-horse {
-  position: absolute;
-  width: 1293px;
-  height: 1117px;
-  top: 0;
-  left: 371px;
-  object-fit: cover;
-}
-
-.coming-soon .content {
+.desktop .content {
   display: flex;
   flex-direction: column;
-  width: 689px;
+  width: 566px;
   align-items: flex-start;
   gap: 8px;
   padding: 40px 56px;
-  position: absolute;
-  top: 237px;
-  left: 0;
+  position: relative;
+  top: 373px;
+  left: 437px;
   border-radius: 24px;
   backdrop-filter: blur(8px) brightness(100%);
   -webkit-backdrop-filter: blur(8px) brightness(100%);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.07) 100%);
 }
 
-.coming-soon .color-blocks {
-  display: inline-flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding: 0px 56px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.coming-soon .rectangle {
-  background-color: #b9e6fe;
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
-.coming-soon .div {
-  background-color: #36bff9;
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
-.coming-soon .rectangle-2 {
-  background-color: #0ba4eb;
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
-.coming-soon .rectangle-3 {
-  background-color: #016aa2;
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
-.coming-soon .rectangle-4 {
-  background-color: #065986;
-  position: relative;
-  width: 16px;
-  height: 16px;
-}
-
-.coming-soon .frame {
+.desktop .frame {
   display: inline-flex;
   align-items: center;
   gap: 42px;
   padding: 12px 0px;
   position: relative;
   flex: 0 0 auto;
-  margin-right: -22px;
+  margin-right: -145px;
 }
 
-.coming-soon .logo-icon {
+.desktop .logo-icon {
   position: relative;
   width: 169px;
   height: 174px;
 }
 
-.coming-soon .text {
+.desktop .text {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
@@ -108,11 +52,11 @@
   flex: 0 0 auto;
 }
 
-.coming-soon .text-wrapper {
+.desktop .text-wrapper {
   position: relative;
   width: 388px;
   margin-top: -1px;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(11.11, 164.71, 235.89) 100%);
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
   -webkit-background-clip: text !important;
   background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -125,70 +69,19 @@
   line-height: 72px;
 }
 
-.coming-soon .text-wrapper-2 {
+.desktop .div {
   position: relative;
   width: 388px;
   margin-top: -18px;
-  font-family: "Inter", Helvetica;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%);
+  -webkit-background-clip: text !important;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  font-family: "Inter-SemiBold", Helvetica;
   font-weight: 600;
-  color: #ffffff;
+  color: transparent;
   font-size: 32px;
   letter-spacing: 0;
   line-height: 72px;
-}
-
-.coming-soon .list {
-  display: flex;
-  width: 1607px;
-  align-items: flex-start;
-  justify-content: center;
-  gap: 150px;
-  padding: 24px 56px;
-  position: absolute;
-  top: 791px;
-  left: 0;
-  border-radius: 32px;
-  border: 1px solid;
-  border-color: transparent;
-  backdrop-filter: blur(8px) brightness(100%);
-  -webkit-backdrop-filter: blur(8px) brightness(100%);
-  border-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.44)) 1;
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%);
-}
-
-.coming-soon .div-2 {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 8px;
-  position: relative;
-  flex: 0 0 auto;
-}
-
-.coming-soon .insights {
-  position: relative;
-  width: 24px;
-  height: 24px;
-}
-
-.coming-soon .text-wrapper-3 {
-  position: relative;
-  width: fit-content;
-  font-family: "Avenir-Heavy", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
-}
-
-.coming-soon .p {
-  position: relative;
-  width: 231px;
-  font-family: "Avenir-Roman", Helvetica;
-  font-weight: 400;
-  color: #ffffff;
-  font-size: 18px;
-  letter-spacing: 0;
-  line-height: normal;
 }
