@@ -1,15 +1,14 @@
 .coming-soon {
-  width: 1440px;
-  height: 1024px;
-  background-color: rgba(255, 255, 255, 1);
-  background: linear-gradient(180deg, rgb(8.71, 32.75, 43.56) 0%, rgb(4, 62, 73) 100%);
+  width: 100%;
+  height: auto;
+  background: linear-gradient(180deg, rgb(8, 32, 43) 0%, rgb(4, 62, 73) 100%);
+  padding: 20px;
 }
 
 .coming-soon .overlap-group {
-  position: relative;
-  width: 1376px;
-  height: 1024px;
-  left: 64px;
+  width: 100%;
+  height: auto;
+  left: 0;
 }
 
 .coming-soon .our-horse {
@@ -22,20 +21,11 @@
 }
 
 .coming-soon .content {
-  display: flex;
-  flex-direction: column;
-  width: 689px;
-  align-items: flex-start;
-  gap: 8px;
-  padding: 40px 56px;
-  position: absolute;
-  top: 237px;
-  left: 0;
-  border-radius: 24px;
-  backdrop-filter: blur(8px) brightness(100%);
-  -webkit-backdrop-filter: blur(8px) brightness(100%);
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0.36) 0%, rgba(0, 0, 0, 0.07) 100%);
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
 }
+
 
 .coming-soon .color-blocks {
   display: inline-flex;
@@ -107,20 +97,7 @@
 }
 
 .coming-soon .text-wrapper {
-  position: relative;
-  width: 388px;
-  margin-top: -1px;
-  background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(11.11, 164.71, 235.89) 100%);
-  -webkit-background-clip: text !important;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-fill-color: transparent;
-  font-family: "Avenir-Heavy", Helvetica;
-  font-weight: 400;
-  color: transparent;
-  font-size: 64px;
-  letter-spacing: 0;
-  line-height: 72px;
+  font-size: 48px;
 }
 
 .coming-soon .text-wrapper-2 {
