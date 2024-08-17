@@ -1420,16 +1420,6 @@ input::-moz-focus-inner {
   bottom: 1.3em;
 }
 
-.home-content__line {
-  display: block;
-  width: 1px;
-  height: 12rem;
-  background-color: #008aec;
-  position: absolute;
-  right: 84px;
-  bottom: 0;
-}
-
 
 /* ------------------------------------------------------------------- 
  * ## home social - (_site-layout.scss) 
