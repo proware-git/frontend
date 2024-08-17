@@ -1851,6 +1851,12 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
+  .home-logo {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); /* Centers the logo horizontally */
+  }
+
 }
 
 @media only screen and (max-width:700px) {
@@ -1875,6 +1881,12 @@ html.no-csstransitions .home-content__main {
   .home-content__counter .days {
     font-size: 8rem;
     padding-right: 5.5rem;
+  }
+
+  .home-logo {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); /* Centers the logo horizontally */
   }
 
 }
@@ -1913,6 +1925,11 @@ html.no-csstransitions .home-content__main {
     padding-left: 25px;
   }
 
+  .home-logo {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); /* Centers the logo horizontally */
+  }
 }
 
 @media only screen and (max-width:500px) {
@@ -1956,6 +1973,12 @@ html.no-csstransitions .home-content__main {
     display: none;
   }
 
+  .home-logo {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); /* Centers the logo horizontally */
+  }
+
 }
 
 @media only screen and (max-width:400px) {
@@ -1990,6 +2013,12 @@ html.no-csstransitions .home-content__main {
 
   .home-copyright {
     margin-top: 7.8rem;
+  }
+
+  .home-logo {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%); /* Centers the logo horizontally */
   }
 
 }
